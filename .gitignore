@@ -1,0 +1,16 @@
+# npm
+/node_modules/
+# don't commit lock for libraries
+/package-lock.json
+
+# yarn
+/.yarn/
+/.pnp.js
+# don't commit lock for libraries
+/yarn.lock
+
+# build outputs
+/dist/
+
+# IDE files
+/.idea/workspace.xml

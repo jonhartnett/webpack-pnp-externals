@@ -1,0 +1,24 @@
+{
+    "name": "webpack-pnp-externals",
+    "version": "1.0.0",
+    "description": "Exclude Yarn PnP modules from the webpack bundle",
+    "license": "MIT",
+    "repository": "github:jonhartnett/webpack-pnp-externals",
+    "author": {
+        "name": "Jonathan Hartnett"
+    },
+    "main": "dist/index.js",
+    "scripts": {
+        "watch": "babel src --out-dir dist --source-maps --watch",
+        "build": "babel src --out-dir dist --source-maps"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.10.5",
+        "@babel/core": "^7.11.1",
+        "@babel/preset-env": "^7.11.0"
+    },
+    "files": [
+        "/dist/**/*"
+    ],
+    "sideEffects": false
+}
