@@ -14,9 +14,11 @@ Webpack Documentation: [Externals](https://webpack.js.org/configuration/external
 const {WebpackPnpExternals} = require('webpack-pnp-externals');
 
 module.exports = {
+    //...
     externals: [
         WebpackPnpExternals()
     ]
+    //...
 };
 ```
 This will exclude all PnP modules from the bundle and instead load them with `require`.
