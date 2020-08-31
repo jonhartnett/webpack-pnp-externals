@@ -1,7 +1,7 @@
 ## Webpack PnP Externals
 Allows you to exclude modules installed using Yarn's [PnP](https://classic.yarnpkg.com/en/docs/pnp/) from the bundle.
 Mostly useful for the backend.
-Intended to be used along side [webpack-node-externals](https://github.com/liady/webpack-node-externals).
+Intended to be used alongside [webpack-node-externals](https://github.com/liady/webpack-node-externals).
 
 ### Installation
 ```shell script
