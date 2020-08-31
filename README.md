@@ -32,7 +32,7 @@ This will exclude all PnP modules from the bundle and instead load them with `re
         A custom function to check whether to externalize the request.
         * `request` The content of the import statement.
         * `resolution` The file which the request resolved to. 
-    * `Array` An array of any of the preceding to be or-ed together.
+    * `Array` An array of the preceding to be or-ed together.
 * `exclude` Same as `include`, but excludes requests that match.
 * `importType` (default `'commonjs'`) 
     The [external type](https://webpack.js.org/configuration/externals/#externalstype) to use when loading the externalized modules.
