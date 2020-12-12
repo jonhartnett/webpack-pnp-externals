@@ -2,6 +2,7 @@
 Allows you to exclude modules installed using Yarn's [PnP](https://classic.yarnpkg.com/en/docs/pnp/) from the bundle.
 Mostly useful for the backend.
 Intended to be used alongside [webpack-node-externals](https://github.com/liady/webpack-node-externals).
+Works with both Webpack 4 and 5.
 
 ### Installation
 ```shell script
