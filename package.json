@@ -1,6 +1,6 @@
 {
     "name": "webpack-pnp-externals",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Exclude Yarn PnP modules from the webpack bundle",
     "license": "MIT",
     "repository": "github:jonhartnett/webpack-pnp-externals",
