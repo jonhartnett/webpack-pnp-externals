@@ -13,9 +13,8 @@ export function WebpackPnpExternals(options={}) {
     return function() {
         let [context, request, callback] = arguments;
         // support Webpack 5
-        if (arguments.length === 2) {
+        if (arguments.length === 2)
             [{ context, request }, callback] = arguments;
-        }
         if(pnpApi == null)
             return callback();
         //don't check relative or absolute requires
