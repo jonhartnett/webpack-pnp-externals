@@ -10,7 +10,8 @@
     "main": "dist/index.js",
     "scripts": {
         "watch": "babel src --out-dir dist --source-maps --watch",
-        "build": "babel src --out-dir dist --source-maps"
+        "build": "babel src --out-dir dist --source-maps",
+        "prepublishOnly": "yarn run build"
     },
     "devDependencies": {
         "@babel/cli": "^7.10.5",
